@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "cn.sun.resource",
+      "type": "org.mall.domain.Resource",
+      "sourceType": "org.mall.domain.Resource"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cn.sun.resource.age",
+      "type": "java.lang.String",
+      "sourceType": "org.mall.domain.Resource"
+    },
+    {
+      "name": "cn.sun.resource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.mall.domain.Resource"
+    },
+    {
+      "name": "cn.sun.resource.sex",
+      "type": "java.lang.String",
+      "sourceType": "org.mall.domain.Resource"
+    }
+  ],
+  "hints": []
+}

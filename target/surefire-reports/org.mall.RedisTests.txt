@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.mall.RedisTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.72 s <<< FAILURE! - in org.mall.RedisTests
+contextLoads(org.mall.RedisTests)  Time elapsed: 4.7 s  <<< ERROR!
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6390
+	at org.mall.RedisTests.contextLoads(RedisTests.java:19)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6390
+	at org.mall.RedisTests.contextLoads(RedisTests.java:19)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6390
+Caused by: java.net.ConnectException: Connection refused: no further information
+

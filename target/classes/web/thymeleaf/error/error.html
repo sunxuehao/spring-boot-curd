@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>捕获全局异常</title>
+</head>
+<body>
+<!-- BEGIN CONTENT BODY -->
+<div>
+    <!-- BEGIN PAGE TITLE-->
+    <h1>Sxh的自定义错误页面</h1>
+    <h3>Error Page
+        <small>系统崩溃了！</small>
+    </h3>
+    <div>
+        <div>
+            <p>出错误的命令：<span th:text= "${url}">未知</span></p>
+            <p>出错误的原因：<span th:text= "${exception.message}">未知</span></p>
+            <h4>您可以尝试以下操作解决问题:</h4>
+            <ul class="list-unstyled spaced inline margin-15">
+                <li>重新阅读操作手册或帮助文档；</li>
+                <li>给我们反馈更多关于发生这个错误的详细信息！</li>
+                <li>联系平台管理员；</li>
+                <li><a href="http://localhost:8089/">返回首页</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
