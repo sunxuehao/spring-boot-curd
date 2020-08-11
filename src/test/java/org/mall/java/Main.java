@@ -1,11 +1,8 @@
 package org.mall.java;
 
-import jdk.internal.org.objectweb.asm.Handle;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.util.logging.Handler;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,18 +17,19 @@ public class Main {
                 javaSun.getClass().getInterfaces(), new InvocationHandler() {
                     @Override
                     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                        if(method.getName().equals("coding")){
+                        if (method.getName().equals("coding")) {
                             System.out.println("代理开始");
-                            method.invoke(javaSun,args);
+                            method.invoke(javaSun, args);
                             System.out.println("代理成功");
-                        }else{
-
+                        } else {
+                            method.invoke(javaSun, args);
                         }
                         return null;
                     }
                 }
         );
         programmerWater.coding();
+
 
     }
 }

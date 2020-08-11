@@ -5,30 +5,32 @@
     <id column="user_id" jdbcType="INTEGER" property="userId" />
     <result column="user_name" jdbcType="VARCHAR" property="userName" />
     <result column="user_sex" jdbcType="CHAR" property="userSex" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
   </resultMap>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from user
     where user_id = #{userId,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="org.mall.domain.User">
-    insert into user (user_id, user_name, user_sex
-      )
-    values (#{userId,jdbcType=INTEGER}, #{userName,jdbcType=VARCHAR}, #{userSex,jdbcType=CHAR}
-      )
+    insert into user (user_id, user_name, user_sex, 
+      password)
+    values (#{userId,jdbcType=INTEGER}, #{userName,jdbcType=VARCHAR}, #{userSex,jdbcType=CHAR}, 
+      #{password,jdbcType=VARCHAR})
   </insert>
   <update id="updateByPrimaryKey" parameterType="org.mall.domain.User">
     update user
     set user_name = #{userName,jdbcType=VARCHAR},
-      user_sex = #{userSex,jdbcType=CHAR}
+      user_sex = #{userSex,jdbcType=CHAR},
+      password = #{password,jdbcType=VARCHAR}
     where user_id = #{userId,jdbcType=INTEGER}
   </update>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    select user_id, user_name, user_sex
+    select user_id, user_name, user_sex, password
     from user
     where user_id = #{userId,jdbcType=INTEGER}
   </select>
   <select id="selectAll" resultMap="BaseResultMap">
-    select user_id, user_name, user_sex
+    select user_id, user_name, user_sex, password
     from user
   </select>
 </mapper>

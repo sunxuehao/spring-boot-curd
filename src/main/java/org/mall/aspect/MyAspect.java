@@ -9,6 +9,7 @@ public class MyAspect {
 
     @Pointcut("execution(* org.mall.service.impl.CommodityServiceImpl.findAll(..))")
     public void pointCut() {
+
     }
 
     @Before("pointCut()")

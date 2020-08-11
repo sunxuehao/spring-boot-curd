@@ -28,14 +28,14 @@
         <!--        生成的pojo类-->
 <!--        targetPackage:生成实体类存放的包名，一般就是放在该包下。实际还会受到其他配置的影响(<table>中会提到)。-->
 <!--        targetProject:指定目标项目路径，使用的是文件系统的绝对路径-->
-        <javaModelGenerator targetPackage="org.mall.domain" targetProject="E:\项目\mall\src\main\java"/>
+        <javaModelGenerator targetPackage="org.mall.domain" targetProject="E:\项目\spring-boot-curd\src\main\java"/>
 
         <!--        对于生成的mapper类位置-->
-        <sqlMapGenerator targetPackage="mapper" targetProject="E:\项目\mall\src\main\resources"/>
+        <sqlMapGenerator targetPackage="mapper" targetProject="E:\项目\spring-boot-curd\src\main\resources"/>
 
         <!--        配置mapper对于的java映射-->
         <javaClientGenerator type="XMLMAPPER" targetPackage="org.mall.dao"
-                             targetProject="E:\项目\mall\src\main\java"/>
+                             targetProject="E:\项目\spring-boot-curd\src\main\java"/>
 
         <table tableName="user">
             <!--mysql 配置-->

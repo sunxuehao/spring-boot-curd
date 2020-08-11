@@ -3,12 +3,9 @@ package org.mall.service.impl;
 import com.github.pagehelper.PageHelper;
 import org.mall.dao.CommodityDao;
 import org.mall.domain.Commodity;
-import org.mall.domain.User;
 import org.mall.service.CommodityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Propagation;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 

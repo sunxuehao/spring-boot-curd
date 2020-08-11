@@ -20,7 +20,7 @@ public class IndexController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     @ResponseBody
     public void index(HttpServletResponse response) throws Exception{
-        response.sendRedirect("/commodity/findAll");
+        response.sendRedirect("/user/login");
     }
 
     @RequestMapping(value = "/resource", method = RequestMethod.GET)
@@ -42,6 +42,11 @@ public class IndexController {
     public String error(){
         int i = 9/0;
         return "thymeleaf/thymeleaf";
+    }
+
+    @RequestMapping(value = "/no_authority", method = RequestMethod.GET)
+    public String no_authority(){
+        return "thymeleaf/no_authority";
     }
 
     @PostMapping("/delete")

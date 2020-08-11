@@ -1,7 +1,7 @@
 package org.mall.service;
 
+
 import com.github.pagehelper.PageInfo;
-import org.mall.domain.Commodity;
 import org.mall.domain.User;
 
 import java.util.List;
