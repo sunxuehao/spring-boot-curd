@@ -1,0 +1,416 @@
+2020/08/11-15:10 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode- [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020/08/11-15:13 [http-nio-8089-exec-6] DEBUG org.mall.dao.UserMapper.selectByPrimaryKey- ==>  Preparing: select user_id, user_name, user_sex, password from user where user_id = ? 
+2020/08/11-15:13 [http-nio-8089-exec-6] DEBUG org.mall.dao.UserMapper.selectByPrimaryKey- ==> Parameters: 123(Integer)
+2020/08/11-15:13 [http-nio-8089-exec-6] DEBUG org.mall.dao.UserMapper.selectByPrimaryKey- <==      Total: 0
+2020/08/11-15:13 [http-nio-8089-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver- Resolved [java.lang.NullPointerException]
+2020/08/11-15:13 [http-nio-8089-exec-9] DEBUG org.mall.dao.UserMapper.selectByPrimaryKey- ==>  Preparing: select user_id, user_name, user_sex, password from user where user_id = ? 
+2020/08/11-15:13 [http-nio-8089-exec-9] DEBUG org.mall.dao.UserMapper.selectByPrimaryKey- ==> Parameters: 1(Integer)
+2020/08/11-15:13 [http-nio-8089-exec-9] DEBUG org.mall.dao.UserMapper.selectByPrimaryKey- <==      Total: 1
+2020/08/11-15:13 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:13 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:13 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:13 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:13 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:13 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:13 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:13 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:13 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:14 [http-nio-8089-exec-1] DEBUG org.mall.dao.UserMapper.selectByPrimaryKey- ==>  Preparing: select user_id, user_name, user_sex, password from user where user_id = ? 
+2020/08/11-15:14 [http-nio-8089-exec-1] DEBUG org.mall.dao.UserMapper.selectByPrimaryKey- ==> Parameters: 1(Integer)
+2020/08/11-15:14 [http-nio-8089-exec-1] DEBUG org.mall.dao.UserMapper.selectByPrimaryKey- <==      Total: 1
+2020/08/11-15:14 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:14 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:14 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:14 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:14 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:14 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:14 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:14 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:14 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:14 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:14 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:14 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:14 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:14 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:14 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:14 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:14 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:14 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:15 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:15 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:15 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:15 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:15 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:15 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:15 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:15 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:15 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-3] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-4] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-5] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:16 [http-nio-8089-exec-6] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:17 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:17 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:17 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:17 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:17 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:17 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:17 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:17 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:17 [http-nio-8089-exec-7] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:17 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:17 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:17 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:17 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:17 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:17 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:17 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:17 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:17 [http-nio-8089-exec-8] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:17 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:17 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:17 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:17 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:17 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:17 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:17 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:17 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:17 [http-nio-8089-exec-9] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:17 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:17 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:17 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:17 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:17 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:17 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:17 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ?, ? 
+2020/08/11-15:17 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer), 5(Integer)
+2020/08/11-15:17 [http-nio-8089-exec-10] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:17 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:17 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:17 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:17 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:17 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:17 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:17 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:17 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:17 [http-nio-8089-exec-1] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
+2020/08/11-15:17 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- ==>  Preparing: select count(*) from t_commodity 
+2020/08/11-15:17 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- ==> Parameters: 
+2020/08/11-15:17 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.selectSize- <==      Total: 1
+2020/08/11-15:17 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==>  Preparing: SELECT count(0) FROM t_commodity 
+2020/08/11-15:17 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- ==> Parameters: 
+2020/08/11-15:17 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll_COUNT- <==      Total: 1
+2020/08/11-15:17 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- ==>  Preparing: select id, name, standard, temperature, price, description from t_commodity LIMIT ? 
+2020/08/11-15:17 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- ==> Parameters: 5(Integer)
+2020/08/11-15:17 [http-nio-8089-exec-2] DEBUG org.mall.dao.CommodityDao.findAll- <==      Total: 5
